@@ -4,17 +4,15 @@ export function Hero() {
       <section className="hero">
         <div className="container hero-grid">
           <div className="fade-up">
-            <span className="eyebrow">
-              Software Engineer • Portfolio Template
-            </span>
+            <span className="eyebrow">Software Engineer • Portfolio</span>
             <h1>
-              Build clear things.
+              Build things fast.
               <br />
-              <span className="gradient-text">Make them look sharp.</span>
+              <span className="gradient-text">Make them perfect.</span>
             </h1>
             <p>
-              Replace this copy with your actual pitch. Keep it direct: what you
-              build, what you care about, and why someone should keep scrolling.
+              I build sustainable products with a clear attention to automation,
+              saving you both time and money
             </p>
 
             <div className="hero-cta">
@@ -27,7 +25,7 @@ export function Hero() {
             </div>
 
             <div className="hero-meta">
-              <span>Based in Somewhere</span>
+              <span>Based in Algeria</span>
               <span>Available for remote work</span>
               <span>Open source friendly</span>
             </div>
@@ -46,13 +44,13 @@ export function Hero() {
                 </div>
                 <div className="terminal-line">
                   <span className="strong">Nazih Boudaakkar</span> — developer,
-                  builder, problem solver
+                  problem solver
                 </div>
                 <div className="terminal-line">
                   <span className="prompt">$</span> stack --primary
                 </div>
                 <div className="terminal-line">
-                  JavaScript • TypeScript • Python • C++
+                  JavaScript • TypeScript • Python
                 </div>
                 <div className="terminal-line">
                   <span className="prompt">$</span> mission: build simple, solid
