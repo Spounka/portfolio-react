@@ -10,6 +10,7 @@
   --muted: #9aa7c7;
   --border: rgba(255, 255, 255, 0.09);
   --shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+  --terminal: linear-gradient(180deg, rgba(0, 0, 0, 0.28), rgba(255, 255, 255, 0.02));
   --hero-glow:
     radial-gradient(circle at top left, rgba(59, 130, 246, 0.22), transparent 30%),
     radial-gradient(circle at 85% 15%, rgba(96, 165, 250, 0.14), transparent 28%),
@@ -24,6 +25,7 @@
   --text: #0f172a;
   --muted: #52607c;
   --border: rgba(15, 23, 42, 0.09);
+  --terminal: white;
   --shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
   --hero-glow:
     radial-gradient(circle at top left, rgba(59, 130, 246, 0.16), transparent 30%),
@@ -266,7 +268,7 @@ h1 {
 }
 
 .terminal {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.28), rgba(255, 255, 255, 0.02));
+  background: var(--terminal);
   border: 1px solid var(--border);
   border-radius: 1.25rem;
   overflow: hidden;
