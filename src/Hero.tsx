@@ -25,8 +25,7 @@ export function Hero() {
             </div>
 
             <div className="hero-meta">
-              <span>Based in Algeria</span>
-              <span>Available for remote work</span>
+              <span>Available for new projects</span>
               <span>Open source friendly</span>
             </div>
           </div>
@@ -42,7 +41,7 @@ export function Hero() {
                 <div className="terminal-line">
                   <span className="prompt">$</span> whoami
                 </div>
-                <div className="terminal-line">
+                <div className="terminal-line" style={{ textWrapMode: "wrap" }}>
                   <span className="strong">Nazih Boudaakkar</span> — developer,
                   problem solver
                 </div>
