@@ -298,10 +298,12 @@ h1 {
   min-height: 18rem;
 }
 
+
 .terminal-line {
   margin: 0.55rem 0;
   white-space: nowrap;
   overflow: hidden;
+  text-wrap: wrap;
   border-right: 2px solid transparent;
   animation: reveal 0.9s ease forwards;
   opacity: 0;

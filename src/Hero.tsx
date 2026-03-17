@@ -41,7 +41,7 @@ export function Hero() {
                 <div className="terminal-line">
                   <span className="prompt">$</span> whoami
                 </div>
-                <div className="terminal-line" style={{ textWrapMode: "wrap" }}>
+                <div className="terminal-line">
                   <span className="strong">Nazih Boudaakkar</span> — developer,
                   problem solver
                 </div>
