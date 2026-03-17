@@ -6,7 +6,7 @@ const projects: Project[] = [
     projectTitle: "Medex",
     projectDescription: "B2B RFQ marketplace for medical products.",
     skills: ["React", "TypeScript", "DjangoRest", "Python"],
-    demoLink: "",
+    demoLink: "https://medex.nazih.top/",
     sourceLink: "https://github.com/Spounka/Medex-Frontend",
     img: "/medex-thumb.png",
   },
