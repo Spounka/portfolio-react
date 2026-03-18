@@ -22,6 +22,15 @@ const projects: Project[] = [
       "https://www.figma.com/community/file/979703961394752403/clickr-photography-agency-landing-page",
     ],
   },
+  {
+    projectTitle: "caldav2ntfy",
+    projectDescription:
+      "A lightweight Linux CLI utility that watches local CalDAV calendar files and sends notifications to an ntfy server when relevant calendar changes are detected.",
+    skills: ["Python", "GitHub Actions", "PyPi", "CalDav", "ntfy", "self-host"],
+    demoLink: "https://pypi.org/project/caldav2ntfy/",
+    sourceLink: "https://github.com/Spounka/caldav2ntfy",
+    img: "https://www.python.org/static/community_logos/python-logo-generic.svg",
+  },
 ];
 
 export function Projects() {
