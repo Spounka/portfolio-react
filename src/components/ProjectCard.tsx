@@ -16,7 +16,10 @@ export function ProjectCard({
         className="card fade-up"
       >
         <div className="project-thumb">
-          <img style={{ width: "100%", height: "100%" }} src={img} />
+          <img
+            style={{ width: "100%", height: "100%", objectFit: "contain" }}
+            src={img}
+          />
         </div>
         <h3>{projectTitle}</h3>
         <p style={{ flex: 1, alignSelf: "flex-start" }}>{projectDescription}</p>
