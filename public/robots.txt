@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://www.nazih.top/sitemap.xml
+
+
