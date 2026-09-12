@@ -9,16 +9,16 @@ export function About() {
                 <div>
                   <h2>About</h2>
                   <p>
-                    A precision solutions engineer with great attention to
-                    DevOps
+                    A versatile engineer with deep focus on infrastructure and DevOps
                   </p>
                 </div>
               </div>
 
               <p>
-                I design and build software with a bias toward clarity,
-                maintainability, and practical results. I like systems that feel
-                simple on the surface and remain understandable underneath.
+                I design software that feels simple, elegant and direct.
+              </p>
+              <p>
+                I may be a <code> jack of all trades </code> but that makes me a <code> master of creative solutions</code>
               </p>
 
               <div className="about-list">
